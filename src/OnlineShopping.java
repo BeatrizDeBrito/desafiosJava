@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class OnlineShopping {
+public class OnlineShopping implements Comparable<OnlineShopping> {
 
     private String purchaseDescription;
     private double value;
@@ -24,5 +24,10 @@ public class OnlineShopping {
     public OnlineShopping(String purchaseDescription, double value) {
         this.purchaseDescription = purchaseDescription;
         this.value = value;
+    }
+
+    @Override
+    public int compareTo(OnlineShopping shop) {
+        return Double.valueOf(this.value).compareTo(Double.valueOf(shop.value));
     }
 }

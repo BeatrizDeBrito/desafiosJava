@@ -6,6 +6,10 @@ public class CreditCard {
     private double balance;
     private List<OnlineShopping> purchaseList;
 
+    public List<OnlineShopping> getPurchaseList() {
+        return purchaseList;
+    }
+
     public double getLimit() {
         return limit;
     }
