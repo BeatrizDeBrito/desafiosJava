@@ -1,3 +1,5 @@
+package shoppingApplication;
+
 import java.util.ArrayList;
 import java.util.List;
 

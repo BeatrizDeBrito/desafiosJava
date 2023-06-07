@@ -1,3 +1,7 @@
+package shoppingApplication;
+
+import shoppingApplication.CreditCard;
+
 import java.util.Collections;
 import java.util.Scanner;
 
