@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package shoppingApplication;
 
 public class OnlineShopping implements Comparable<OnlineShopping> {
 
@@ -11,7 +11,7 @@ public class OnlineShopping implements Comparable<OnlineShopping> {
 
     @Override
     public String toString() {
-        return "OnlineShopping{" +
+        return "shoppingApplication.OnlineShopping{" +
                 "purchaseDescription='" + purchaseDescription + '\'' +
                 ", value=" + value +
                 '}';
